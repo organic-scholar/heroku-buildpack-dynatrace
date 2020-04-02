@@ -107,7 +107,7 @@ puts_step "Running Dynatrace OneAgent installer..."
 puts_step $INSTALLER_FILE
 puts_step $BUILD_DIR
 
-sh "${INSTALLER_FILE}" "${BUILD_DIR}" "–-set-host-group=$DT_HOST_GROUP"
+sh "${INSTALLER_FILE}" "${BUILD_DIR}"
 
 # Set procfile
 puts_step "Configuring Dynatrace Oneagent..."
